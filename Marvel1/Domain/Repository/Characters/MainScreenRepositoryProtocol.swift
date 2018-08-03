@@ -12,11 +12,6 @@ protocol MainScreenRepositoryProtocol {
     
     func getAllCharacters(name:String?,offset:Int?,completionHandler:@escaping (ResultData)->(),failure: @escaping (NSError) -> Void)
 }
-extension MainScreenRepositoryProtocol{
-    
-//    func getAllCharacters(name:String? = nil,offset:Int? = nil  ,completionHandler:@escaping (ResultData)->(),failure: @escaping (NSError) -> Void){
-//        getAllCharacters(name:name,offset:offset,completionHandler:completionHandler,failure: failure)
-//    }
-}
+
 
 

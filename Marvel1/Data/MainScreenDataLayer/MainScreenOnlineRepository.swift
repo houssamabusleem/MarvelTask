@@ -25,8 +25,9 @@ class MainScreenOnlineRepository :MainScreenRepositoryProtocol {
                     let decoder = JSONDecoder()
                     let result = try decoder.decode(CharacterResponse.self, from: data!)
                     
-                    if (result.code == 404 ) {
-//                        failure(result.status as! NSError )
+                    if (result.code == 409 ) {
+                        return
+//                       failure(result.status as! NSError )
                     }else{
                         let datares = result.resultData // returns `nil` if data is empty
                         completionHandler(datares!)

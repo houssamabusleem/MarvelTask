@@ -7,13 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		771F2B762111DC79000F0DA8 /* MainScreenCoreDataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 771F2B752111DC79000F0DA8 /* MainScreenCoreDataRepository.swift */; };
 		7722EFE8210885490059B819 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7722EFE7210885490059B819 /* AppDelegate.swift */; };
 		7722EFED210885490059B819 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7722EFEB210885490059B819 /* Main.storyboard */; };
 		7722EFEF2108854A0059B819 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7722EFEE2108854A0059B819 /* Assets.xcassets */; };
 		7722EFF22108854A0059B819 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7722EFF02108854A0059B819 /* LaunchScreen.storyboard */; };
 		7722EFFA210885FB0059B819 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7722EFF9210885FB0059B819 /* Info.plist */; };
-		7722F003210887670059B819 /* CheckConnection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7722EFFC210887670059B819 /* CheckConnection.swift */; };
 		7722F005210887670059B819 /* MessagesAndAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7722EFFE210887670059B819 /* MessagesAndAlerts.swift */; };
 		7722F006210887670059B819 /* Series.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7722EFFF210887670059B819 /* Series.swift */; };
 		7722F007210887670059B819 /* ServiceLocator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7722F000210887670059B819 /* ServiceLocator.swift */; };
@@ -58,14 +56,12 @@
 /* Begin PBXFileReference section */
 		1CCB8F9E240AB2659778393D /* Pods-Marvel1.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Marvel1.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Marvel1/Pods-Marvel1.debug.xcconfig"; sourceTree = "<group>"; };
 		70A7D8C02A2C4DF869D46616 /* Pods_Marvel1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Marvel1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		771F2B752111DC79000F0DA8 /* MainScreenCoreDataRepository.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainScreenCoreDataRepository.swift; sourceTree = "<group>"; };
 		7722EFE4210885490059B819 /* Marvel1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Marvel1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7722EFE7210885490059B819 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7722EFEC210885490059B819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7722EFEE2108854A0059B819 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7722EFF12108854A0059B819 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7722EFF9210885FB0059B819 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7722EFFC210887670059B819 /* CheckConnection.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckConnection.swift; sourceTree = "<group>"; };
 		7722EFFE210887670059B819 /* MessagesAndAlerts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessagesAndAlerts.swift; sourceTree = "<group>"; };
 		7722EFFF210887670059B819 /* Series.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Series.swift; sourceTree = "<group>"; };
 		7722F000210887670059B819 /* ServiceLocator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServiceLocator.swift; sourceTree = "<group>"; };
@@ -172,7 +168,6 @@
 		7722EFFB210887670059B819 /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
-				7722EFFC210887670059B819 /* CheckConnection.swift */,
 				7722EFFE210887670059B819 /* MessagesAndAlerts.swift */,
 				7722F000210887670059B819 /* ServiceLocator.swift */,
 				7722F002210887670059B819 /* UIView+BlurExtnsion.swift */,
@@ -384,7 +379,6 @@
 		7722F073210887EF0059B819 /* MainScreenDataLayer */ = {
 			isa = PBXGroup;
 			children = (
-				771F2B752111DC79000F0DA8 /* MainScreenCoreDataRepository.swift */,
 				7722F075210887EF0059B819 /* MainScreenOnlineRepository.swift */,
 			);
 			path = MainScreenDataLayer;
@@ -540,10 +534,8 @@
 				7722F02E210887900059B819 /* MainVC.swift in Sources */,
 				7722F009210887670059B819 /* UIView+BlurExtnsion.swift in Sources */,
 				7722F07F210887EF0059B819 /* MainScreenOnlineRepository.swift in Sources */,
-				771F2B762111DC79000F0DA8 /* MainScreenCoreDataRepository.swift in Sources */,
 				7722F032210887900059B819 /* searchVC.swift in Sources */,
 				7722F054210887C30059B819 /* Character.swift in Sources */,
-				7722F003210887670059B819 /* CheckConnection.swift in Sources */,
 				7722F02A210887900059B819 /* CharacterDetailPresenter.swift in Sources */,
 				7722F066210887C30059B819 /* GetCharacterSeriesUseCase.swift in Sources */,
 				7722F005210887670059B819 /* MessagesAndAlerts.swift in Sources */,

@@ -51,14 +51,6 @@ class ServiceLocator{
     
     static func MainScreenRepository()->(MainScreenRepositoryProtocol){
 
-        if CheckConnection.isConnectedToNetwork(){
            return MainScreenOnlineRepository()
-       }else{
-          print("Internet Connection not Available!")
-           return MainScreenCoreDataRepository()
-       }
-        
-       
     }
-    
 }
